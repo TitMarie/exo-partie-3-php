@@ -11,7 +11,7 @@ echo "<br>";
 
 $i = 0;
 $j = rand(1, 100);
-while ($i < 20) {
+while ($i <= 20) {
     echo $i * $j . " - ";
     $i ++;  
 }
